@@ -1,4 +1,6 @@
 module "service_account" {
+  source = "git::https://github.com/GCP-Terraform-Module-steamedEggMaster/service-account-module.git?ref=v1.0.0"
+
   account_id = "test-service-account"
 }
 
